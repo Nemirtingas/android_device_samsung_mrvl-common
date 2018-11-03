@@ -23,7 +23,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifeq ($(TARGET_BOARD_PLATFORM),mrvl)
+ifeq ($(call is-board-platform-in-list,mrvl),true)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
 endif
