@@ -31,14 +31,6 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 TARGET_USES_ION := true
 MRVL_ION := true
 
-# Audio
-#BOARD_USES_ALSA_AUDIO := true
-#LOCAL_CFLAGS += -DMR0_AUDIO_BLOB -DRM1_AUDIO_BLOB
-
-# Bluetooth
-BOARD_HAVE_BLUETOOTH := true
-BOARD_HAVE_BLUETOOTH_MRVL := true
-
 # Recovery
 #TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 #TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
